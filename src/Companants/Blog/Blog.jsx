@@ -32,7 +32,7 @@ export default function Blog() {
 
   return (
     <>
-      <main className="grow pt-20">
+      <main className="grow pt-14">
         <div className="min-h-screen bg-[#0a0a0a]">
           <div className="relative py-20 overflow-hidden">
             <div className="absolute inset-0 bg-[#0a0a0a]"></div>

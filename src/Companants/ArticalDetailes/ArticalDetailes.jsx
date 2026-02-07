@@ -33,7 +33,7 @@ export default function ArticalDetailes() {
 
   return (
     <>
-      <main className="grow pt-20">
+      <main className="grow pt-14">
         <article className="bg-[#0a0a0a] min-h-screen">
           <div className="relative h-[60vh] min-h-125 overflow-hidden">
             <img

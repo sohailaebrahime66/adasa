@@ -13,7 +13,7 @@ export default function Home() {
   
   return (
     <>
-      <main className="grow pt-20">
+      <main className="grow pt-14">
         <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-[#0a0a0a]">
           <div
             className="absolute inset-0
