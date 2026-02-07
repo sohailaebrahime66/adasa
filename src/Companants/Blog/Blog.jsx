@@ -44,7 +44,7 @@ export default function Blog() {
             <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
               <span
                 className="
-              px-4 py-2 text-sm leading-5 font-medium  text-orange-500 rounded-circle  bg-orange-500/10 border border-orange-500/30 rounded-full  mb-8 animate-fade-in
+              px-4 py-2 text-sm  font-medium  text-orange-500 rounded-circle  bg-orange-500/10 border border-orange-500/30 rounded-full  mb-8 animate-fade-in
                 before:w-1.5 before:h-1.5 before:bg-[#f97316] before:border-4 before:rounded-4xl before:animate-pulse before:duration-200 before:ease-initial inline-flex items-center gap-2 "
               >
                 <i className="w-4 h-4 fas fa-newspaper"></i>

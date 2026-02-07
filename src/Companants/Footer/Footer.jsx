@@ -16,7 +16,7 @@ export default function Footer() {
                 </div>
                 <span className="text-xl font-bold text-white">عدسة</span>
               </Link>
-              <p className="text-sm text-neutral-500 mb-6 leading-relaxed">
+              <p className="text-sm text-neutral-500 mb-6 ">
                 مدونة متخصصة في فن التصوير الفوتوغرافي، نشارك معكم أسرار
                 المحترفين ونصائح عملية لتطوير مهاراتكم.
               </p>

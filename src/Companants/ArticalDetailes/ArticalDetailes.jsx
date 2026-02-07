@@ -85,7 +85,7 @@ export default function ArticalDetailes() {
                     </span>
                   </div>
                 </div>
-                <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight max-w-4xl">
+                <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6  max-w-4xl">
                   {post.title}
                 </h1>
                 <div className="flex items-center gap-4 p-4 bg-white/5 backdrop-blur-md rounded-2xl border border-white/10 w-fit">
@@ -106,7 +106,7 @@ export default function ArticalDetailes() {
             <div className="grid lg:grid-cols-[1fr_300px] gap-12">
               <div className="order-2 lg:order-1">
                 <div className="p-6 bg-linear-to-r from-orange-500/10 to-yellow-500/5 rounded-2xl border border-orange-500/20 mb-10">
-                  <p className="text-lg text-neutral-200 leading-relaxed italic">
+                  <p className="text-lg text-neutral-200  italic">
                     {post.excerpt}
                   </p>
                 </div>
@@ -127,10 +127,7 @@ export default function ArticalDetailes() {
                       );
                     }
                     return (
-                      <p
-                        key={i}
-                        className="text-neutral-300 leading-relaxed mb-6 text-lg"
-                      >
+                      <p key={i} className="text-neutral-300  mb-6 text-lg">
                         {section.text}
                       </p>
                     );
@@ -200,7 +197,7 @@ export default function ArticalDetailes() {
                         {" "}
                         {post.author.role}
                       </p>
-                      <p className="text-neutral-400 text-sm leading-relaxed">
+                      <p className="text-neutral-400 text-sm ">
                         {post.excerpt}
                       </p>
                     </div>
@@ -208,7 +205,7 @@ export default function ArticalDetailes() {
                 </div>
               </div>
               <aside className="order-1 lg:order-2">
-                <div className="lg:sticky lg:top-24 space-y-6">
+                <div className="lg:sticky lg:top-24 ">
                   <div className="p-6 bg-[#111111] rounded-2xl border border-[#262626]">
                     <div className="flex items-center gap-3 mb-5">
                       <div className="w-10 h-10 bg-orange-500/10 rounded-xl flex items-center justify-center border border-orange-500/30">
@@ -216,7 +213,7 @@ export default function ArticalDetailes() {
                       </div>
                       <h3 className="font-bold text-white">محتويات المقال</h3>
                     </div>
-                    <nav className="space-y-2">
+                    <nav className="">
                       {titlesPosts.map((section, i) => (
                         <Link
                           key={section.id}

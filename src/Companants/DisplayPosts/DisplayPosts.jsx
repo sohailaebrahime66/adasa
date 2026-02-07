@@ -105,7 +105,7 @@ export default function DisplayPosts({ posts, onResetFilters }) {
           >
             {currentPosts.map((onepost) => (
               <article
-              key={onepost.id}
+                key={onepost.id}
                 className="bg-[#161616] border border-[#262626] rounded-3xl overflow-hidden 
                 transition-all duration-500 ease-in-out 
                 hover:border-orange-500/30 hover:shadow-lg delay-0 group hover:-translate-y-4 "
@@ -142,11 +142,11 @@ export default function DisplayPosts({ posts, onResetFilters }) {
                       <span className="w-1 h-1 bg-neutral-600 rounded-full"></span>
                       <span> {onepost.date} </span>
                     </div>
-                    <h3 className="text-xl font-bold text-white mb-3 group-hover:text-orange-500 transition-colors duration-300 line-clamp-2 leading-tight">
+                    <h3 className="text-xl font-bold text-white mb-3 group-hover:text-orange-500 transition-colors duration-300 line-clamp-2">
                       {onepost.title}
                     </h3>
 
-                    <p className="text-neutral-400 mb-5 line-clamp-2 text-sm leading-relaxed">
+                    <p className="text-neutral-400 mb-5 line-clamp-2 text-sm ">
                       {onepost.content}
                     </p>
                     <div className="flex items-center justify-between pt-4 border-t border-[#262626]">

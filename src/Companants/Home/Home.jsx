@@ -26,7 +26,7 @@ export default function Home() {
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
             <div className="text-center max-w-4xl mx-auto">
               <div
-                className="  px-4 py-2 text-sm leading-5 font-medium  text-orange-500 rounded-circle  bg-orange-500/10 border border-orange-500/30 rounded-full inline-flex items-center gap-2 mb-8 animate-fade-in
+                className="  px-4 py-2 text-sm  font-medium  text-orange-500 rounded-circle  bg-orange-500/10 border border-orange-500/30 rounded-full inline-flex items-center gap-2 mb-8 animate-fade-in
                 before:w-1.5 before:h-1.5 before:bg-[#f97316] before:border-4 before:rounded-4xl before:animate-pulse before:duration-200 before:ease-initial "
               >
                 <span className="relative flex h-2 w-2">
@@ -37,7 +37,7 @@ export default function Home() {
                   مرحباً بك في عدسة
                 </span>
               </div>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight tracking-tight">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6  ">
                 استكشف{"  "}
                 <span className="bg-linear-to-br from-orange-500 to-amber-400 bg-clip-text text-transparent">
                   فن
@@ -45,7 +45,7 @@ export default function Home() {
                 <br></br>
                 التصوير الفوتوغرافي
               </h1>
-              <p className="text-xl md:text-2xl text-neutral-400 mb-10 max-w-2xl mx-auto leading-relaxed">
+              <p className="text-xl md:text-2xl text-neutral-400 mb-10 max-w-2xl mx-auto ">
                 انغمس في أسرار المحترفين ونصائح عملية لتطوير مهاراتك في التصوير.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">

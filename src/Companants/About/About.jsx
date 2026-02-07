@@ -2,7 +2,6 @@ import React from "react";
 import OurTeam from "../OurTeam/OurTeam";
 import { Link } from "react-router-dom";
 
-
 export default function About() {
   return (
     <>
@@ -29,7 +28,7 @@ export default function About() {
                 الإعلام والإلهام
               </span>
             </h1>
-            <p className="text-xl text-neutral-400 max-w-3xl mx-auto leading-relaxed mb-12">
+            <p className="text-xl text-neutral-400 max-w-3xl mx-auto  mb-12">
               مدونة متخصصة في فن التصوير الفوتوغرافي، نشارك معكم أسرار المحترفين
               ونصائح عملية لتطوير مهاراتكم. نحن شغوفون بمشاركة المعرفة ومساعدة
               المصورين على تنمية مهاراتهم من خلال محتوى عالي الجودة.
@@ -70,9 +69,9 @@ export default function About() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 flex items-center justify-center gap-3">
-                <span className="w-1.5 h-8 bg-gradient-to-b from-orange-500 to-yellow-500 rounded-full"></span>
+                <span className="w-1.5 h-8 bg-linear-to-b from-orange-500 to-yellow-500 rounded-full"></span>
                 قيمنا
-                <span className="w-1.5 h-8 bg-gradient-to-b from-yellow-500 to-orange-500 rounded-full"></span>
+                <span className="w-1.5 h-8 bg-linear-to-b from-yellow-500 to-orange-500 rounded-full"></span>
               </h2>
               <p className="text-neutral-400 text-sm  ">
                 المبادئ التي توجه كل ما نقوم بإنشائه
@@ -80,7 +79,7 @@ export default function About() {
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="group p-6 bg-[#161616] rounded-2xl border border-[#262626] hover:border-orange-500/30 transition-all duration-300 text-center relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-orange-500 to-yellow-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-linear-to-br from-orange-500 to-yellow-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
                 <div className="relative">
                   <i className="fa-solid fa-bullseye text-4xl text-orange-500 mb-4 block"></i>
                   <h3 className="text-lg font-bold text-white mb-2 group-hover:text-orange-500 transition-colors">
@@ -92,7 +91,7 @@ export default function About() {
                 </div>
               </div>
               <div className="group p-6 bg-[#161616] rounded-2xl border border-[#262626] hover:border-orange-500/30 transition-all duration-300 text-center relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-orange-500 to-yellow-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-linear-to-br from-orange-500 to-yellow-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
                 <div className="relative">
                   <i className="fa-solid fa-bolt text-4xl text-orange-500 mb-4 block"></i>
                   <h3 className="text-lg font-bold text-white mb-2 group-hover:text-orange-500 transition-colors">
@@ -104,7 +103,7 @@ export default function About() {
                 </div>
               </div>
               <div className="group p-6 bg-[#161616] rounded-2xl border border-[#262626] hover:border-orange-500/30 transition-all duration-300 text-center relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-orange-500 to-yellow-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-linear-to-br from-orange-500 to-yellow-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
                 <div className="relative">
                   <i className="fa-solid fa-handshake text-4xl text-orange-500 mb-4 block"></i>
                   <h3 className="text-lg font-bold text-white mb-2 group-hover:text-orange-500 transition-colors">
@@ -116,7 +115,7 @@ export default function About() {
                 </div>
               </div>
               <div className="group p-6 bg-[#161616] rounded-2xl border border-[#262626] hover:border-orange-500/30 transition-all duration-300 text-center relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-orange-500 to-yellow-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-linear-to-br from-orange-500 to-yellow-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
                 <div className="relative">
                   <i className="fa-solid fa-arrows-rotate text-4xl text-orange-500 mb-4 block"></i>
                   <h3 className="text-lg font-bold text-white mb-2 group-hover:text-orange-500 transition-colors">
@@ -131,7 +130,7 @@ export default function About() {
           </div>
         </section>
         <OurTeam />
-        <section className="py-20 bg-gradient-to-br from-orange-600 via-orange-500 to-yellow-500 relative overflow-hidden">
+        <section className="py-20 bg-linear-to-br from-orange-600 via-orange-500 to-yellow-500 relative overflow-hidden">
           <div className="absolute inset-0 opacity-30">
             <div className="absolute top-10 right-10 w-64 h-64 bg-white/20 rounded-full blur-[100px]"></div>
             <div className="absolute bottom-10 left-10 w-48 h-48 bg-white/20 rounded-full blur-[80px]"></div>

@@ -133,7 +133,7 @@ export default function Posts() {
                           {post.readTime}
                         </span>
                       </div>
-                      <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 group-hover:text-orange-500 transition-colors duration-300 leading-tight">
+                      <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 group-hover:text-orange-500 transition-colors duration-300 ">
                         {post.title}
                       </h2>
                       <p className="text-neutral-400 mb-6 ">
